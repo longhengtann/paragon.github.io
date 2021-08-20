@@ -1,0 +1,362 @@
+.top-header {
+  background-image: url(../images/dark-blue-opacity.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
+  height: 2rem;
+}
+
+.header-title {
+  color: #00c6ff;
+}
+
+.sub-title {
+  color: #191763;
+}
+
+.text-gold {
+  color: #ffcc00;
+}
+
+.text-green {
+  color: #02912c;
+}
+
+.text-red {
+  color: #f03756;
+}
+
+.background-purple {
+  background-color: #191763;
+}
+
+.background-green-grad {
+  background-color: #03cebc;
+  background-image: linear-gradient(#02a6f1, #03d8ae);
+}
+
+.service-icon {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 65px;
+  left: 0;
+  right: 0;
+  width: 4rem;
+}
+
+.make-us-defference{
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  width: 100%;
+}
+
+.online-trading-plateform {
+  height: 100%;
+  background-image: url(../images/online-trading-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+.commodities-background {
+  background-image: url(../images/online-trading-sub-background.png);
+  background-size: cover;
+  /* width: 100%; */
+}
+
+.border-primary {
+  border: 1px solid #3fc5ec;
+}
+
+.simple-step-background {
+  background-image: url(../images/vision-mission-bg.png);
+  background-size: cover;
+}
+
+.simple-step-card {
+  background: red;
+  background-size: cover;
+}
+
+.background-opacity {
+  background-color: rgb(0, 0, 0, 0.4);
+}
+
+.paragon-option-background {
+  background-image: url(../images/road-map.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  
+}
+
+.font-color-purple {
+  color: #020049;
+}
+
+.paragon-option-icon {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: -32px;
+  left: 0;
+  right: 0;
+  width: 4rem;
+}
+
+.card-header-bg {
+  background-color: rgb(10, 9, 30, 0.6);
+}
+
+.online-trading-plateform-card {
+  border: 2px solid #c2c2c2;
+  border-radius: 16px;
+}
+
+.circle {
+  border: 1px solid white;
+  padding: 3px;
+  border-radius: 10px;
+  background: white;
+}
+
+.title-background {
+  background: linear-gradient(to right, rgb(2, 0, 73, 0.5), rgb(84, 127, 166, 0.5));
+}
+
+.footer-background {
+  background-image: url(../images/trading-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+
+.footer-body-background {
+  background: linear-gradient(to right, rgb(2, 0, 73, 0.3), rgb(0, 0, 0, 0));
+}
+
+.footer-background-body-purpal {
+  background: linear-gradient(to right, rgb(43, 47, 68, 0.3), rgb(0, 0, 0, 0));
+}
+
+.footer-icon {
+  position: absolute;
+  right: 10%;
+  bottom: 1rem;
+}
+
+.footer-copy-right {
+  position: absolute;
+  bottom: 2rem;
+  left: 0;
+}
+
+.text-copy-right {
+  font-size: 10px;
+}
+
+.header-background {
+  background-image: url(../images/orage-tech-bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 22rem;
+}
+
+.button-default {
+  padding: .5rem .75rem;
+  border-radius: 15px;
+  background-color: rgb(255, 204, 0, 0.8);
+}
+
+.phone-frame-with-coint{
+  position: absolute;
+  bottom: -1rem;
+  right: 1rem;
+  width: 14rem;
+}
+
+.header-logo {
+  position: absolute;
+  top: 0;
+  width: 12rem;
+}
+
+.header-underline {
+  width: 12rem;
+  border: 1px solid white;
+  margin: 4px 0px;
+}
+
+.exchange-rate-background {
+  background-color: rgb(184, 181, 187, 0.5);
+}
+
+.button-menu-header{
+  font-size: 12px;
+  padding: 2px 4px;
+  border-radius: 6px;
+  background-color: rgb(255, 204, 0, 0.8);
+  margin-right: 5px;
+}
+
+.nav-bar-absolute {
+  top: 1rem;
+  background: rgb(24, 68, 115, 0.5);
+}
+
+.header-title-background-opacity {
+  background: linear-gradient(to right, rgb(0 0 0 / 35%), rgb(0 0 0 / 0%));
+}
+
+
+@media (min-width: 640px) {
+  .header-underline {
+    width: 32%;
+  }
+}
+
+@media (min-width: 768px) {
+  .top-header {
+    height: 5rem;
+  }
+
+  .online-trading-plateform-card {
+    border-radius: 30px;
+  }
+
+  .service-icon {
+    top: 58px;
+    width: 5rem;
+  }
+
+  .text-copy-right {
+    font-size: .875rem;
+  }
+
+  .header-background {
+    height: 30rem;
+  }
+
+  .phone-frame-with-coint{
+    width: 22rem;
+    right: 2rem;
+    bottom: -2rem;
+  }
+
+  .header-logo {
+    width: 28rem;
+  }
+
+  .header-text {
+    font-size: 2rem;
+    line-height: 2.25rem;
+  }
+
+  .header-underline {
+    width: 23rem;
+    border: 1px solid white;
+  }
+
+  .nav-bar-absolute {
+    top: 12%;
+  }
+
+  .button-menu-header{
+    padding: .25rem 1rem;
+    border-radius: 6px;
+    background-color: rgb(255, 204, 0, 0.8);
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .top-header {
+    height: 7rem;
+  }
+
+  .paragon-option-icon {
+    top: -48px;
+    width: 5rem;
+  }
+
+  .online-trading-plateform-card {
+    border-radius: 40px;
+  }
+
+  .header-background {
+    height: 36rem;
+  }
+
+  .header-logo {
+    width: 36rem;
+  }
+
+  .phone-frame-with-coint{
+    width: 26rem;
+    right: 2rem;
+    bottom: -2rem;
+  }
+
+  .header-text {
+    font-size: 3rem;
+    line-height: 3.25rem;
+  }
+
+  .header-underline {
+    width: 34rem;
+    border: 1px solid white;
+  }
+
+  .nav-bar-absolute {
+    top: 14%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .header-background {
+    height: 40rem;
+  }
+
+  .phone-frame-with-coint{
+    width: 28rem;
+    right: 8rem;
+    bottom: -2rem;
+  }
+
+  .header-logo {
+    width: 45rem;
+  }
+
+  .header-underline {
+    width: 46%;
+  }
+
+  .nav-bar-absolute {
+    top: 15%;
+  }
+
+  .header-logo {
+    width: 40rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .header-background {
+    height: 50rem;
+  }
+
+  .header-underline {
+    width: 35rem;
+  }
+
+  .nav-bar-absolute {
+    top: 12.12%;
+  }
+
+  .phone-frame-with-coint{
+    width: 37rem;
+    right: 10rem;
+  }
+}
