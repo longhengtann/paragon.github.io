@@ -1,0 +1,175 @@
+.top-header {
+  background-image: url(../images/dark-blue-opacity.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
+  height: 2rem;
+}
+
+.header-logo {
+  position: absolute;
+  top: 0;
+  width: 12rem;
+}
+
+.background-options {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 22rem;
+}
+
+.header-background {
+  background-image: url(../images/orage-tech-bg.png);
+}
+
+.page-header-background {
+  background-image: url(../images/main-background.png);
+}
+
+.phone-frame-with-coint{
+  position: absolute;
+  bottom: -1rem;
+  right: 1rem;
+  width: 14rem;
+}
+
+.coin-frame {
+  position: absolute;
+  bottom: -1rem;
+  right: 0;
+  width: 14rem;
+}
+
+.nav-bar-absolute {
+  top: 1rem;
+  background: rgb(24, 68, 115, 0.5);
+}
+
+.button-menu-header{
+  font-size: 12px;
+  padding: 2px 4px;
+  border-radius: 6px;
+  background-color: rgb(255, 204, 0, 0.8);
+  margin-right: 5px;
+}
+
+.header-title-background-opacity {
+  background: linear-gradient(to right, rgb(0 0 0 / 35%), rgb(0 0 0 / 0%));
+}
+
+@media (max-width: 640px) {
+
+}
+
+@media (min-width: 768px) {
+  .phone-frame-with-coint{
+    width: 18rem;
+    right: 2rem;
+    bottom: -2rem;
+  }
+
+  .coin-frame {
+    width: 22rem;
+    right: 1rem;
+    bottom: -2rem;
+  }
+
+  .header-logo {
+    width: 27rem;
+  }
+
+  .top-header {
+    height: 5rem;
+  }
+
+  .background-options {
+    height: 25rem;
+  }
+
+  .nav-bar-absolute {
+    top: 16%;
+  }
+
+  .button-menu-header{
+    padding: .25rem 1rem;
+    border-radius: 6px;
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .phone-frame-with-coint{
+    width: 21rem;
+    right: 2rem;
+    bottom: -2rem;
+  }
+
+  .coin-frame {
+    width: 26rem;
+    right: 2rem;
+    bottom: -2rem;
+  }
+
+  .header-logo {
+    width: 37rem;
+  }
+
+  .top-header {
+    height: 7rem;
+  }
+
+  .background-options {
+    height: 30rem;
+  }
+
+  .nav-bar-absolute {
+    top: 19%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .phone-frame-with-coint{
+    width: 28rem;
+    right: 8rem;
+    bottom: -2rem;
+  }
+
+  .coin-frame {
+    width: 28rem;
+    right: 8rem;
+    bottom: -2rem;
+  }
+
+  .header-logo {
+    width: 37rem;
+  }
+
+  .background-options {
+    height: 40rem;
+  }
+
+  .nav-bar-absolute {
+    top: 15%;
+  }
+}
+
+@media (min-width: 1536px) {
+  .phone-frame-with-coint{
+    width: 32rem;
+    right: 10rem;
+  }
+
+  .coin-frame {
+    width: 37rem;
+    right: 10rem;
+  }
+
+  .background-options {
+    height: 46rem;
+  }
+
+  .nav-bar-absolute {
+    top: 13.12%;
+  }
+}

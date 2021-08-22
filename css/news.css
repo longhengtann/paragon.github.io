@@ -3,3 +3,63 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.text-ellipsis {
+  width: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 10;
+  -webkit-box-orient: vertical;
+}
+
+/* Pagination */
+.pagination {
+  margin: 0;
+  padding: 0;
+  text-align: center
+}
+
+.pagination li {
+  display: inline
+}
+
+.pagination li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 10px;
+  color: #000
+}
+
+.pagination li a.active {
+  background-color: #00bff3;
+  color: #fff
+}
+
+.pagination li a:hover:not(.active) {
+  background-color: #ddd;
+}
+/* End pagination */
+
+@media (min-width: 640px) {
+
+}
+
+@media (min-width: 768px) {
+  .text-ellipsis {
+    -webkit-line-clamp: 7;
+  }
+}
+
+@media (min-width: 1024px) {
+  .text-ellipsis {
+    -webkit-line-clamp: 8;
+  }
+}
+
+@media (min-width: 1280px) {
+
+}
+
+@media (min-width: 1536px) {
+
+}

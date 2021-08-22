@@ -1,0 +1,32 @@
+.footer-bg {
+  background-image: url("../images/footer-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.gray-gradient {
+  background: linear-gradient(to right, rgb(0 0 0 / 35%), rgb(0 0 0 / 0%));
+}
+
+.contact {
+  color: #00c6ff;
+}
+
+.vl {
+  border-left: 12px solid #01baf2;
+  height: 100%;
+}
+
+.social-media-bg {
+  background-color: rgb(12, 18, 61, 0.6);
+}
+
+.gray-gradient {
+  background: linear-gradient(to right, rgb(0 0 0 / 35%), rgb(0 0 0 / 0%));
+}
+
+@media (max-width: 640px) {
+  .text-smallest {
+    font-size: 8px;
+  }
+}
